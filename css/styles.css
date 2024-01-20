@@ -85,12 +85,42 @@ h1{
     .contenedor-img2 p{
         margin-left: 150px;
         margin-right: 150px;
-        font-size: xx-large;
+        font-size: x-large;
     }
 
     h1{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
+}
+
+@media (min-width: 1024px) {
+
+  .contenedor-img1{
+      font-size: 0px;
+      background-image: url(/img/camioneta-comtec.jpg);
+      height: 45vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: unset;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+      color: whitesmoke;
+      text-shadow: 4px 1px 5px #0E0D0D;
+      font-size: xx-large;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .contenedor-img2 p{
+      margin-left: 150px;
+      margin-right: 150px;
+      font-size: xx-large;
+  }
+
+  h1{
+      font-size: 2.8rem;
+  }
 }
 
 /* pagina nosotros */
@@ -267,8 +297,8 @@ main .galeria-img .productos-oym .titulos-productos-oym{
     .grid-item2 {
         text-align: center;
         /* color: #0571B6; */
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-top: 15px;
         /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
         border-radius: 50px;
@@ -290,119 +320,164 @@ main .galeria-img .productos-oym .titulos-productos-oym{
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-
-    main .galeria-img{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap:20px;
-        padding-bottom: 20px;
-    }
-
-
-    main .galeria-img .productos{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        color: whitesmoke;
-        width: 300px;
-        height: 400px;
-        padding: 10px;
-        background-image: url(/img/comercial.png);
-        box-shadow: 6px 3px 10px grey;
-        border-radius: 10px;
-    }
-
-
-    main .galeria-img .productos img{
-        height: 150px;
-        padding-top: 10px;
-    }
-
-    main .galeria-img .productos .titulos-productos{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: large;
-        margin-top: 10px;
-    }
-
-    main .galeria-img .productos-it{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        color: whitesmoke;
-        width: 300px;
-        height: 400px;
-        padding: 10px;
-        background-image: url(/img/targeta\ IT.png);
-        box-shadow: 6px 3px 10px grey;
-        border-radius: 10px;
-    }
-
-    main .galeria-img .productos-it img{
-        height: 150px;
-        padding-top: 10px;
-    }
-
-    main .galeria-img .productos-it .titulos-productos-it{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: large;
-        margin-top: 10px;
-    }
-
-    main .galeria-img .productos-hys{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        color: whitesmoke;
-        width: 300px;
-        height: 400px;
-        padding: 10px;
-        background-image: url(/img/targeta-hys.png);
-        box-shadow: 6px 3px 10px grey;
-        border-radius: 10px;
-        
-    }
-
-    main .galeria-img .productos-hys img{
-        height: 150px;
-        padding-top: 10px;
-    }
-
-    main .galeria-img .productos-hys .titulos-productos-hys{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: large;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    main .galeria-img .productos-oym{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        color: whitesmoke;
-        width: 300px;
-        height: 400px;
-        padding: 10px;
-        background-image: url(/img/targeta-oym.png);
-        box-shadow: 6px 3px 10px grey;
-        border-radius: 10px;
-        
-    }
-
-    main .galeria-img .productos-oym img{
-        height: 150px;
-        padding-top: 10px;
-    }
-
-    main .galeria-img .productos-oym .titulos-productos-oym{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: large;
-        text-align: center;
-        margin-top: 10px;
-    }
-
 }
 
+@media (min-width: 1024px) {    
+  .grid-container {
+      display: grid;
+      grid-template-rows: 500px;
+      grid-template-columns: 1.7fr 1fr; 
+      grid-gap: 15px;
+      margin: 20px;
+      margin-bottom: 50px;
+      border-radius: 30px;
+      
+  }
+
+  .grid-item1 {
+      background-image: url(/img/equipo.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+
+  .grid-item2 {
+      text-align: center;
+      /* color: #0571B6; */
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 15px;
+      /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+      border-radius: 50px;
+
+  }
+  .grid-item2 p{
+      font-size: medium;
+  }
+
+  .tituloh1{
+      text-align: center;
+      padding-bottom: 20px;
+
+  }
+
+  .tituloh1 h1{
+      /* color: #2D66AB; */
+  /*     text-shadow: 4px 1px 5px #0571B6; */
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  main .galeria-img{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap:20px;
+      padding-bottom: 20px;
+  }
+
+
+  main .galeria-img .productos{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      color: whitesmoke;
+      width: 300px;
+      height: 400px;
+      padding: 10px;
+      background-image: url(/img/comercial.png);
+      box-shadow: 6px 3px 10px grey;
+      border-radius: 10px;
+  }
+
+
+  main .galeria-img .productos img{
+      height: 150px;
+      padding-top: 10px;
+  }
+
+  main .galeria-img .productos .titulos-productos{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      margin-top: 10px;
+  }
+
+  main .galeria-img .productos-it{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      color: whitesmoke;
+      width: 300px;
+      height: 400px;
+      padding: 10px;
+      background-image: url(/img/targeta\ IT.png);
+      box-shadow: 6px 3px 10px grey;
+      border-radius: 10px;
+  }
+
+  main .galeria-img .productos-it img{
+      height: 150px;
+      padding-top: 10px;
+  }
+
+  main .galeria-img .productos-it .titulos-productos-it{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      margin-top: 10px;
+  }
+
+  main .galeria-img .productos-hys{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      color: whitesmoke;
+      width: 300px;
+      height: 400px;
+      padding: 10px;
+      background-image: url(/img/targeta-hys.png);
+      box-shadow: 6px 3px 10px grey;
+      border-radius: 10px;
+      
+  }
+
+  main .galeria-img .productos-hys img{
+      height: 150px;
+      padding-top: 10px;
+  }
+
+  main .galeria-img .productos-hys .titulos-productos-hys{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  main .galeria-img .productos-oym{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      color: whitesmoke;
+      width: 300px;
+      height: 400px;
+      padding: 10px;
+      background-image: url(/img/targeta-oym.png);
+      box-shadow: 6px 3px 10px grey;
+      border-radius: 10px;
+      
+  }
+
+  main .galeria-img .productos-oym img{
+      height: 150px;
+      padding-top: 10px;
+  }
+
+  main .galeria-img .productos-oym .titulos-productos-oym{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+}
 
 /* pagina de servicios. definicion de las grillas */
 /* MOBILE FIRST */
@@ -536,12 +611,12 @@ main .grid-contenedor{
         grid-template-columns: repeat(3, 30%);
         grid-template-rows: repeat(8,20%);
         gap: 10px;
-        margin: 260px 300px;
+        margin: 200px 150px;
         align-content: center;
         border-color: #0571B6;
     }
     
-    .grilla-item1 {
+    /* .grilla-item1 {
         background-image:url(/img/satelital.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -637,9 +712,20 @@ main .grid-contenedor{
         padding-top: 50px;
         grid-column-start: 2; 
         grid-column-end: 4; 
-      }
+      } */
 }
-
+@media (min-width: 1024px) {   
+  main .grid-contenedor{
+      height: 70vh;
+      display: grid;
+      grid-template-columns: repeat(3, 30%);
+      grid-template-rows: repeat(8,20%);
+      gap: 10px;
+      margin: 200px 300px;
+      align-content: center;
+      border-color: #0571B6;
+  }
+}
 /* PAGINA CLIENTES */
 /* MOBILE FIRST */
 .img-clientes{
