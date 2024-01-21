@@ -136,7 +136,7 @@ h1{
 }
 
 .grid-item1 {
-    background-image: url(/img/equipo.png);
+    background-image: url(../img/equipo.png);
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -185,7 +185,7 @@ main .galeria-img .productos{
     width: 300px;
     height: 400px;
     padding: 10px;
-    background-image: url(/img/comercial.png);
+    background-image: url(../img/comercial.png);
     box-shadow: 6px 3px 10px grey;
     border-radius: 10px;
 }
@@ -209,7 +209,7 @@ main .galeria-img .productos-it{
     width: 300px;
     height: 400px;
     padding: 10px;
-    background-image: url(/img/targeta\ IT.png);
+    background-image: url(../img/targeta\ IT.png);
     box-shadow: 6px 3px 10px grey;
     border-radius: 10px;
 }
@@ -233,7 +233,7 @@ main .galeria-img .productos-hys{
     width: 300px;
     height: 400px;
     padding: 10px;
-    background-image: url(/img/targeta-hys.png);
+    background-image: url(../img/targeta-hys.png);
     box-shadow: 6px 3px 10px grey;
     border-radius: 10px;
     
@@ -259,7 +259,7 @@ main .galeria-img .productos-oym{
     width: 300px;
     height: 400px;
     padding: 10px;
-    background-image: url(/img/targeta-oym.png);
+    background-image: url(../img/targeta-oym.png);
     box-shadow: 6px 3px 10px grey;
     border-radius: 10px;
 }
@@ -289,7 +289,7 @@ main .galeria-img .productos-oym .titulos-productos-oym{
     }
 
     .grid-item1 {
-        background-image: url(/img/equipo.png);
+        background-image: url(../img/equipo.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -335,7 +335,7 @@ main .galeria-img .productos-oym .titulos-productos-oym{
   }
 
   .grid-item1 {
-      background-image: url(/img/equipo.png);
+      background-image: url(../img/equipo.png);
       background-size: contain;
       background-repeat: no-repeat;
   }
@@ -384,7 +384,7 @@ main .galeria-img .productos-oym .titulos-productos-oym{
       width: 300px;
       height: 400px;
       padding: 10px;
-      background-image: url(/img/comercial.png);
+      background-image: url(../img/comercial.png);
       box-shadow: 6px 3px 10px grey;
       border-radius: 10px;
   }
@@ -409,7 +409,7 @@ main .galeria-img .productos-oym .titulos-productos-oym{
       width: 300px;
       height: 400px;
       padding: 10px;
-      background-image: url(/img/targeta\ IT.png);
+      background-image: url(../img/targeta\ IT.png);
       box-shadow: 6px 3px 10px grey;
       border-radius: 10px;
   }
@@ -433,7 +433,7 @@ main .galeria-img .productos-oym .titulos-productos-oym{
       width: 300px;
       height: 400px;
       padding: 10px;
-      background-image: url(/img/targeta-hys.png);
+      background-image: url(../img/targeta-hys.png);
       box-shadow: 6px 3px 10px grey;
       border-radius: 10px;
       
@@ -459,7 +459,7 @@ main .galeria-img .productos-oym .titulos-productos-oym{
       width: 300px;
       height: 400px;
       padding: 10px;
-      background-image: url(/img/targeta-oym.png);
+      background-image: url(../img/targeta-oym.png);
       box-shadow: 6px 3px 10px grey;
       border-radius: 10px;
       
