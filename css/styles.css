@@ -493,7 +493,7 @@ main .grid-contenedor{
 }
 
 .grilla-item1 {
-    background-image:url(/img/satelital.png);
+    background-image:url(../img/satelital.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column-start: 1; 
@@ -515,14 +515,14 @@ main .grid-contenedor{
     grid-column-end: 3; 
 }
   .grilla-item4 {
-    background-image: url(/img/wifi.png);
+    background-image: url(../img/wifi.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column-start: 3; 
     grid-column-end: 4; 
 }
   .grilla-item5 {
-    background-image: url(/img/coaxial.png);
+    background-image: url(../img/coaxial.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column-start: 1; 
@@ -541,14 +541,14 @@ main .grid-contenedor{
     grid-column-end: 3; 
 }
   .grilla-item8 {
-    background-image: url(/img/obra-civil.png);
+    background-image: url(../img/obra-civil.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column-start: 3; 
     grid-column-end: 4; 
 }
   .grilla-item9 {
-    background-image: url(/img/fo.png);
+    background-image: url(../img/fo.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column-start: 1; 
@@ -570,14 +570,14 @@ main .grid-contenedor{
     grid-column-end: 3; 
 }
   .grilla-item12 {
-    background-image: url(/img/handy.png);
+    background-image: url(../img/handy.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column-start: 3; 
     grid-column-end: 4; 
 }
   .grilla-item13 {
-    background-image: url(/img/consultoria.png);
+    background-image: url(../img/consultoria.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column-start: 1; 
