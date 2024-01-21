@@ -67,7 +67,7 @@ h1{
 
     .contenedor-img1{
         font-size: 0px;
-        background-image: url(/img/camioneta-comtec.jpg);
+        background-image: url(../img/camioneta-comtec.jpg);
         height: 45vh;
         background-size: cover;
         background-repeat: no-repeat;
@@ -97,7 +97,7 @@ h1{
 
   .contenedor-img1{
       font-size: 0px;
-      background-image: url(/img/camioneta-comtec.jpg);
+      background-image: url(../img/camioneta-comtec.jpg);
       height: 45vh;
       background-size: cover;
       background-repeat: no-repeat;
