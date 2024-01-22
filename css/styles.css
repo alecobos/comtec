@@ -60,7 +60,7 @@ h1{
 .contenedor-img2 p{
     margin-left: 100px;
     margin-right: 100px;
-    font-size: medium;
+    font-size: small;
 }
 
 @media (min-width: 768px) {
