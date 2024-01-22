@@ -136,10 +136,15 @@ h1{
 }
 
 .grid-item1 {
-    background-image: url(../img/equipo.png);
+    /* background-image: url(../img/equipo.png); */
     background-size: contain;
     background-repeat: no-repeat;
     
+}
+.altura-carrusel{
+  height: 350px;
+  width: 0.5fr;
+  align-items: center;
 }
 
 .grid-item2 {
@@ -289,9 +294,10 @@ main .galeria-img .productos-oym .titulos-productos-oym{
     }
 
     .grid-item1 {
-        background-image: url(../img/equipo.png);
+        /* background-image: url(../img/equipo.png); */
         background-size: contain;
         background-repeat: no-repeat;
+        align-items: center;
     }
 
     .grid-item2 {
@@ -305,7 +311,13 @@ main .galeria-img .productos-oym .titulos-productos-oym{
 
     }
     .grid-item2 p{
-        font-size: medium;
+        font-size: small;
+    }
+
+    .altura-carrusel{
+      height: 500px;
+      width: 0.5fr;
+      align-items: center;
     }
 
     .tituloh1{
@@ -326,7 +338,7 @@ main .galeria-img .productos-oym .titulos-productos-oym{
   .grid-container {
       display: grid;
       grid-template-rows: 500px;
-      grid-template-columns: 1.7fr 1fr; 
+      grid-template-columns: 1fr 1fr; 
       grid-gap: 15px;
       margin: 20px;
       margin-bottom: 50px;
@@ -335,9 +347,14 @@ main .galeria-img .productos-oym .titulos-productos-oym{
   }
 
   .grid-item1 {
-      background-image: url(../img/equipo.png);
+      /* background-image: url(../img/equipo.png); */
       background-size: contain;
       background-repeat: no-repeat;
+  }
+  .altura-carrusel{
+    height: 500px;
+    width: 0.5fr;
+    align-items: center;
   }
 
   .grid-item2 {
@@ -725,7 +742,9 @@ main .grid-contenedor{
       align-content: center;
       border-color: #0571B6;
   }
+
 }
+
 /* PAGINA CLIENTES */
 /* MOBILE FIRST */
 .img-clientes{
