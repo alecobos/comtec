@@ -227,7 +227,7 @@ h2 {
 }
 
 .altura-carrusel {
-  height: 90vh;
+  height: 450px;
   min-height: 200px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -250,7 +250,7 @@ h2 {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 1px;
+  margin-top: 110px;
   border-radius: 10px;
 }
 @media screen and (min-width: 768px) {
@@ -288,6 +288,7 @@ main .galeria-img {
   justify-content: center;
   gap: 20px;
   padding-bottom: 20px;
+  margin-top: 50px;
 }
 main .galeria-img .productos {
   display: flex;

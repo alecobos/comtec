@@ -35,7 +35,7 @@
 }
 
 .altura-carrusel{
-    height: 90vh;
+    height: 450px;
     min-height: 200px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -54,7 +54,7 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 1px;
+    margin-top: 110px;
     border-radius: 10px;
     @include tablet{
         margin-top: 15px;
@@ -86,6 +86,7 @@ main .galeria-img{
     justify-content: center;
     gap:20px;
     padding-bottom: 20px;
+    margin-top: 50px;
     .productos{
         display:flex;
         flex-direction: column;
