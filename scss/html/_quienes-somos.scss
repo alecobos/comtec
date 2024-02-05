@@ -94,18 +94,18 @@ main .galeria-img{
         color: $blanco;
         width: 300px;
         height: 400px;
-        padding: 10px;
+        padding-left: 10px;
         background-image: url(../img/comercial.png);
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
             height: 150px;
-            padding-top: 10px;
+            padding-top: 3px;
         }
         .titulos-productos{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: large;
-            margin-top: 10px;
+            margin-top: 3px;
         }
     }
     .productos-it{
@@ -115,18 +115,18 @@ main .galeria-img{
         color: $blanco;
         width: 300px;
         height: 400px;
-        padding: 10px;
+        padding-left: 10px;
         background-image: url(../img/targeta\ IT.png);
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
             height: 150px;
-            padding-top: 10px;
+            padding-top: 3px;
         }
         .titulos-productos-it{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: large;
-            margin-top: 10px;
+            margin-top: 3px;
         }
     }
     .productos-hys{
@@ -136,19 +136,19 @@ main .galeria-img{
         color: whitesmoke;
         width: 300px;
         height: 400px;
-        padding: 10px;
+        padding-left: 10px;
         background-image: url(../img/targeta-hys.png);
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
             height: 150px;
-            padding-top: 10px;
+            padding-top: 3px;
         }
         .titulos-productos-hys{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: large;
             text-align: center;
-            margin-top: 10px;
+            margin-top: 3px;
         }
     }
     .productos-oym{
@@ -158,19 +158,19 @@ main .galeria-img{
         color: $blanco;
         width: 300px;
         height: 400px;
-        padding: 10px;
+        padding-left: 10px;
         background-image: url(../img/targeta-oym.png);
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
             height: 150px;
-            padding-top: 10px;
+            padding-top: 3px;
         }
         .titulos-productos-oym{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: large;
             text-align: center;
-            margin-top: 10px;
+            margin-top: 3px;
         }
     }
     
