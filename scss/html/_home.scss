@@ -1,0 +1,159 @@
+@import "../utilidades/variables";
+/*estilos de header*/
+header{
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo:hover{
+    transform: scale(1.02);
+}
+.link-hover:hover{
+    transform: scale(1.03);
+    text-shadow: 1px 1px 2px $azul;
+}
+h1{
+    font-size: 1rem;
+    text-align: center;
+    @include tablet{
+        font-size: 2rem;
+    }
+    @include desktop{
+        font-size: 2.8rem;  
+    }
+  }
+
+  h2{
+    font-size: 0.9rem;
+    text-align: center;
+    @include tablet{
+        font-size: 1.5rem;
+    }
+    @include desktop{
+        font-size: 2.3rem;  
+    }
+  }
+
+  .contenedor-img1{
+    font-size: 0px;
+    background-image: url(../img/camioneta-comtec.jpg);
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: $blanco;
+    text-shadow: 4px 1px 5px $negro;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    @include tablet{
+        font-size: xx-large;
+    }
+}
+.contenedor-img2{
+    background-color: $negro;
+    background-image: url(../img/camioneta-nieve.png);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: $blanco;
+    text-shadow: 4px 1px 5px $negro;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    p{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: small;
+        @include tablet{
+            margin-left: 150px;
+            margin-right: 150px;
+            font-size: x-large;
+        }
+        @include desktop{
+            font-size: xx-large;
+        }
+    }
+}
+/* whatsapp */
+
+.whatsapp{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 3px;
+    z-index: 1;
+    @include tablet{
+        padding-right: 40px;
+        bottom: 10px;
+        right: 20px;
+    }
+    a{
+        img{
+            width: 40px;
+            height: 40px;
+            padding-right: 0px;
+            @include tablet{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    bottom: 10px;
+    background-color: $negro;
+    color: $blanco;
+    height: 85px;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    nav{
+        ul{
+            display: flex;
+            gap: 8px;
+            @include tablet{
+                gap: 20px;
+            }
+            li{
+                list-style: none;
+                a{
+                    display: flex;
+                    color: $blanco;
+                    text-decoration: none;
+                }
+                span{
+                    font-size: small;
+                    @include tablet{
+                        font-size: large;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ico-fb{
+    width: 16px; 
+    height: 100%;
+}
+
+.ico-ig{
+    width: 24px;
+    height: 100%;
+}

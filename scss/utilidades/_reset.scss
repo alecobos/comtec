@@ -1,0 +1,15 @@
+//import
+@import "variables";
+
+//reset
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos generales*/
+body{
+    background-image: $background-img;
+}

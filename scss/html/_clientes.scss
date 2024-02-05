@@ -1,0 +1,18 @@
+@import "../utilidades/variables";
+/*estilos de header*/
+
+.img-clientes{
+    text-align: center;
+}
+
+.img-clientes img{
+    width: 500px;
+    height: 343px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    @include tablet{
+        width: 700px;
+        height: 480px;
+        margin-bottom: 70px;
+    }
+}

@@ -1,0 +1,118 @@
+/*estilos de servicios*/
+@import "../utilidades/variables";
+
+main .grid-contenedor{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(8,20%);
+    gap: 10px;
+    margin: 230px 40px;
+    align-content: center;
+    border-color: #0571B6;
+    @include tablet{
+        margin: 200px 150px;
+    }
+    @include desktop{
+        margin: 250px 300px;
+    }
+}
+
+.grilla-item1 {
+    background-image:url(../img/satelital.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+}
+
+
+.grilla-item2 {
+    text-align: left;
+    padding-top: 30px;
+    grid-column-start: 2; 
+    grid-column-end: 4; 
+}
+
+    .grilla-item3 {
+    text-align: right;
+    padding-top: 30px;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+  .grilla-item4 {
+    background-image: url(../img/wifi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+}
+  .grilla-item5 {
+    background-image: url(../img/coaxial.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+}
+  .grilla-item6 {
+    text-align: left;
+    padding-top: 30px;
+    grid-column-start: 2; 
+    grid-column-end: 4; 
+}
+  .grilla-item7 {
+    text-align: right;
+    padding-top: 30px;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+  .grilla-item8 {
+    background-image: url(../img/obra-civil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+}
+  .grilla-item9 {
+    background-image: url(../img/fo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+}
+
+
+  .grilla-item10 {
+    text-align: left;
+    padding-top: 30px;
+    grid-column-start: 2; 
+    grid-column-end: 4; 
+}
+
+  .grilla-item11 {
+    text-align: right;
+    padding-top: 30px;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+  .grilla-item12 {
+    background-image: url(../img/handy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 3; 
+    grid-column-end: 4; 
+}
+  .grilla-item13 {
+    background-image: url(../img/consultoria.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+}
+  .grilla-item14 {
+    text-align: left;
+    padding-top: 30px;
+    grid-column-start: 2; 
+    grid-column-end: 4; 
+}
+

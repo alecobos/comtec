@@ -1,0 +1,108 @@
+@import "../utilidades/variables";
+/*estilos de contacto*/
+
+.pages_comentarios{
+    width: 80%;
+    height: 100%;
+    margin: 20px;
+    @include desktop{
+        width: 100%;
+    }
+}
+
+.form_comentarios{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pages_comentarios_titulo {
+    font-size: 17px;
+    color: $negro;
+    text-align: center;
+    @include tablet{
+        font-size: 20px;
+    }
+    @include desktop{
+        font-size: 25px;
+    }
+}
+
+.pages-comentario-entry{
+    padding: 5px;
+    font-size: 15px;
+    @include tablet{
+        font-size: 17px;
+    }
+    @include desktop{
+        font-size: 19px;
+    }
+}
+  
+.pages_comentarios_coment{
+    padding: 5px;
+    font-size: 15px;
+    @include tablet{
+        font-size: 17px;
+    }
+}
+
+.pages_comentarios_botton{
+    padding: 2px;
+}
+
+.mapa{
+    width: 400px; 
+    height: 300px;
+    @include desktop{
+        width: 600px; 
+        height: 450px;
+    }
+}
+.grilla-map {
+    display: grid;
+    grid-template-rows: 100px 350px;
+    grid-template-columns: 500px; 
+    text-align: center;
+    @include tablet{
+        grid-template-rows: 500px;
+        grid-template-columns: 1fr 1.5fr; 
+        margin-top: 100px;
+    }
+}
+
+.grilla-map-item1 {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 1px;
+  border-radius: 10px;
+  @include desktop{
+    text-align: center;
+  }
+}
+
+.grilla-map-item2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    @include desktop{
+        text-align: left;
+    }
+}
+
+.form_comentarios2{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+  
