@@ -5,6 +5,10 @@ header{
     padding: 10px;
 }
 
+.logo{
+    transition-duration: 0.5s;
+}
+
 .logo:hover{
     transform: scale(1.02);
 }
@@ -168,9 +172,19 @@ h1{
 .ico-fb{
     width: 16px; 
     height: 100%;
+    transition-duration: 0.5s;
+}
+
+.ico-fb:hover{
+    transform: scale(1.08);
 }
 
 .ico-ig{
     width: 24px;
     height: 100%;
+    transition-duration: 0.5s;
+}
+
+.ico-ig:hover{
+    transform: scale(1.08);
 }
