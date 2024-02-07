@@ -60,7 +60,7 @@ h2 {
 
 .contenedor-img1 {
   font-size: 0px;
-  background-image: url(../img/kevar.jpeg);
+  background-image: url(../img/ratones.jpeg);
   height: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,13 +82,13 @@ h2 {
 @media screen and (min-width: 1024px) {
   .contenedor-img1 {
     font-size: xx-large;
-    height: 70vh;
+    height: 75vh;
   }
 }
 
 .contenedor-img2 {
   background-color: #0E0D0D;
-  background-image: url(../img/camioneta-comtec.jpg);
+  background-image: url(../img/kevar.jpeg);
   height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,14 +113,14 @@ h2 {
   }
 }
 .contenedor-img2 p {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
   font-size: small;
 }
 @media screen and (min-width: 768px) {
   .contenedor-img2 p {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
     font-size: x-large;
   }
 }
