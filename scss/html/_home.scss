@@ -36,8 +36,9 @@ h1{
 
   .contenedor-img1{
     font-size: 0px;
-    background-image: url(../img/camioneta-comtec.jpg);
-    height: 45vh;
+    // background-image: url(../img/camioneta-comtec.jpg);
+    background-image: url(../img/kevar.jpeg);
+    height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: unset;
@@ -50,12 +51,19 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     @include tablet{
         font-size: xx-large;
+        height: 50vh;
+    }
+    @include desktop{
+        font-size: xx-large;
+        // height: 60vh;
+        height: 70vh;
     }
 }
 .contenedor-img2{
     background-color: $negro;
-    background-image: url(../img/camioneta-nieve.png);
-    height: 40vh;
+    // background-image: url(../img/kevar.jpeg);
+    background-image: url(../img/camioneta-comtec.jpg);
+    height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: unset;
@@ -67,6 +75,15 @@ h1{
     text-shadow: 3px 2px 3px $negro;
     font-size: xx-large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    @include tablet{
+        // height: 90vh;
+        height: 50vh;
+    }
+    @include desktop{
+        // height: 90vh;
+        height: 60vh;
+    }
+    
     p{
         margin-left: 100px;
         margin-right: 100px;
