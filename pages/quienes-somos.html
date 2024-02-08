@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- link javascript bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- css -->
     <link rel="stylesheet" href="../css/main.css">
+    <!-- AOS Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <title>Quienes somos</title>
     <link rel="icon" type="image/png" href="/img/ico.png">
 </head>
 <body>
     <header>
         <div class="row">
-            <!--<h1 class="col-4">Logo</h1>-->
-            <!-- <img class="col-3" src="/img/logo horizontal color.png" alt="telecomunicaciones, logo, internet"> -->
             <nav class="navbar navbar-expand-lg col-8">
                 <div class="container-fluid">
-                  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                   <nav class="navbar">
                     <div class="container">
                       <a class="navbar-brand logo" href="../index.html">
@@ -55,10 +56,6 @@
         </div>
     </header>
     <main>
-
-        
-        
-
         <div class="grid-container">
             <div class="grid-item1">
               <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -111,14 +108,14 @@
        
         <div class="galeria-img">
 
-            <div class="productos">
+            <div class="productos" data-aos="flip-left">
                 <p class="titulos-productos">Sebastián Prieto</p>
                 <img src="../img/prieto.png" alt="comercial">
                 <p class="titulos-productos">Responsable Comercial</p>
                 <p>Representa la capacidad de llevar nuestro servicio a donde otros no, generando experiencias extraordinarias con cada cliente.</p>
             </div>
 
-            <div class="productos-it">
+            <div class="productos-it" data-aos="flip-left">
                 <p class="titulos-productos-it">Rocío Wayar</p>
                 <img src="../img/Rociow.png" alt="nocit">
                 <p class="titulos-productos-it">Gerente de IT</p>
@@ -126,14 +123,14 @@
 
             </div>
 
-            <div class="productos-hys">
+            <div class="productos-hys" data-aos="flip-right">
                 <p class="titulos-productos-hys">Zulma Zuleta</p>
                 <img src="../img/Zulma.png" alt="Higiene Seguridad hys">
                 <p class="titulos-productos-hys">Responsable de Higiene y Seguridad</p>
                 <p> El departamento de Higiene y seguridad nos enseña día a día que la seguridad no es un lema si no una forma de vida. </p>
             </div>
 
-            <div class="productos-oym">
+            <div class="productos-oym" data-aos="flip-right">
                 <p class="titulos-productos-oym">Renso Montellanos</p>
                 <img src="../img/Renso.png" alt="Mantenimiento">
                 <p class="titulos-productos-oym">Responsable de Operaciones y Mantenimiento</p>
@@ -173,5 +170,8 @@
         </nav>
 
     </footer>
+    <!-- AOS Animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
