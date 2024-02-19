@@ -674,6 +674,7 @@ main .grid-contenedor {
   grid-template-rows: 100px 350px;
   grid-template-columns: 500px;
   text-align: center;
+  background-color: #0571B6;
 }
 @media screen and (min-width: 768px) {
   .grilla-map {
@@ -688,12 +689,19 @@ main .grid-contenedor {
   font-family: "Montserrat", sans-serif;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 1px;
+  margin-top: 10px;
   border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .grilla-map-item1 {
+    text-align: center;
+    margin-top: 30px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .grilla-map-item1 {
     text-align: center;
+    margin-top: 30px;
   }
 }
 
@@ -702,9 +710,16 @@ main .grid-contenedor {
   margin-left: 10px;
   margin-right: 10px;
 }
+@media screen and (min-width: 768px) {
+  .grilla-map-item2 {
+    text-align: left;
+    margin-top: 30px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .grilla-map-item2 {
     text-align: left;
+    margin-top: 30px;
   }
 }
 

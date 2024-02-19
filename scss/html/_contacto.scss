@@ -74,6 +74,7 @@
     grid-template-rows: 100px 350px;
     grid-template-columns: 500px; 
     text-align: center;
+    background-color: $azul;
     @include tablet{
         grid-template-rows: 500px;
         grid-template-columns: 1fr 1.5fr; 
@@ -86,10 +87,15 @@
   font-family: $font-text;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 1px;
+  margin-top: 10px;
   border-radius: 10px;
+  @include tablet{
+    text-align: center;
+    margin-top: 30px;
+  }
   @include desktop{
     text-align: center;
+    margin-top: 30px;
   }
 }
 
@@ -97,8 +103,13 @@
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    @include tablet{
+        text-align: left;
+        margin-top: 30px;
+    }
     @include desktop{
         text-align: left;
+        margin-top: 30px;
     }
 }
 
