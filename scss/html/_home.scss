@@ -23,6 +23,7 @@ header{
 h1{
     font-size: 1rem;
     text-align: center;
+    font-family: $font-text;
     @include tablet{
         font-size: 2rem;
     }
@@ -34,6 +35,7 @@ h1{
   h2{
     font-size: 0.9rem;
     text-align: center;
+    font-family: $font-text;
     @include tablet{
         font-size: 1.5rem;
     }
@@ -44,7 +46,6 @@ h1{
 
   .contenedor-img1{
     font-size: 0px;
-    // background-image: url(../img/camioneta-comtec.jpg);
     background-image: url(../img/ratones.jpeg);
     height: 40vh;
     background-size: cover;
@@ -56,20 +57,17 @@ h1{
     padding: 2rem;
     color: $blanco;
     text-shadow: 4px 1px 5px $negro;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     @include tablet{
         font-size: xx-large;
         height: 50vh;
     }
     @include desktop{
         font-size: xx-large;
-        // height: 60vh;
         height: 80vh;
     }
 }
 .contenedor-img2{
     background-color: $negro;
-    // background-image: url(../img/kevar.jpeg);
     background-image: url(../img/kevar.jpeg);
     height: 30vh;
     background-size: cover;
@@ -110,7 +108,7 @@ h1{
 
 .whatsapp{
     display: flex;
-    width: 60px;
+    width: 50px;
     height: 60px;
     padding-right: 10px;
     position: fixed;
@@ -145,17 +143,17 @@ h1{
 .footer{
     display: flex;
     justify-content: space-between;
-    bottom: 10px;
+    bottom: 1px;
     background-color: $negro;
     color: $blanco;
     height: 85px;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     nav{
         ul{
             display: flex;
-            gap: 8px;
+            gap: 3px;
             @include tablet{
                 gap: 20px;
             }
@@ -165,6 +163,10 @@ h1{
                     display: flex;
                     color: $blanco;
                     text-decoration: none;
+                    font-size: small;
+                    @include tablet{
+                        font-size: large;
+                    }
                 }
                 span{
                     font-size: small;
@@ -195,4 +197,14 @@ h1{
 
 .ico-ig:hover{
     transform: scale(1.08);
+}
+
+.ico-mail{
+    width: 30px; 
+    height: 100%;
+    transition-duration: 0.5s;
+}
+
+.ico-mail:hover{
+    transform: scale(1.1);
 }

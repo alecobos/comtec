@@ -10,6 +10,7 @@ main .grid-contenedor{
     margin: 230px 40px;
     align-content: center;
     border-color: #0571B6;
+    font-family: $font-text;
     @include tablet{
         margin: 200px 150px;
     }
@@ -36,7 +37,7 @@ main .grid-contenedor{
 
     .grilla-item3 {
     text-align: right;
-    padding-top: 30px;
+    padding-top: 20px;
     grid-column-start: 1; 
     grid-column-end: 3; 
 }
