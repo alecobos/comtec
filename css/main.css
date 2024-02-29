@@ -174,7 +174,7 @@ h2 {
 /*footer*/
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: stretch;
   bottom: 1px;
   background-color: #0E0D0D;
   color: whitesmoke;
@@ -182,6 +182,16 @@ h2 {
   align-items: center;
   padding: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    justify-content: space-between;
+  }
 }
 .footer nav ul {
   display: flex;
@@ -469,7 +479,7 @@ main .grid-contenedor {
 
 .grilla-item2 {
   text-align: left;
-  padding-top: 30px;
+  padding-top: 10px;
   grid-column-start: 2;
   grid-column-end: 4;
 }

@@ -142,7 +142,7 @@ h1{
 
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     bottom: 1px;
     background-color: $negro;
     color: $blanco;
@@ -150,6 +150,12 @@ h1{
     align-items: center;
     padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    @include tablet{
+        justify-content: space-between;
+    }
+    @include desktop{
+        justify-content: space-between;
+    }
     nav{
         ul{
             display: flex;
