@@ -74,7 +74,7 @@
     grid-template-rows: 100px 350px;
     grid-template-columns: 500px; 
     text-align: center;
-    background-color: $azul;
+    /*background-color: $azul;*/
     @include tablet{
         grid-template-rows: 500px;
         grid-template-columns: 1fr 1.5fr; 

@@ -686,7 +686,7 @@ main .grid-contenedor {
   grid-template-rows: 100px 350px;
   grid-template-columns: 500px;
   text-align: center;
-  background-color: #0571B6;
+  /*background-color: $azul;*/
 }
 @media screen and (min-width: 768px) {
   .grilla-map {
