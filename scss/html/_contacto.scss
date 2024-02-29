@@ -48,6 +48,7 @@
 .pages_comentarios_coment{
     padding: 5px;
     font-size: 15px;
+    max-width: 90%;
     @include tablet{
         font-size: 17px;
     }
