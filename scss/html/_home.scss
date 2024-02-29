@@ -169,7 +169,7 @@ h1{
                     display: flex;
                     color: $blanco;
                     text-decoration: none;
-                    font-size: small;
+                    font-size: x-small;
                     @include tablet{
                         font-size: large;
                     }
@@ -186,9 +186,15 @@ h1{
 }
 
 .ico-fb{
-    width: 16px; 
+    width: 10px; 
     height: 100%;
     transition-duration: 0.5s;
+    @include tablet{
+        width: 16px;
+    }
+    @include desktop{
+        width: 16px;
+    }
 }
 
 .ico-fb:hover{
@@ -196,9 +202,15 @@ h1{
 }
 
 .ico-ig{
-    width: 24px;
+    width: 16px;
     height: 100%;
     transition-duration: 0.5s;
+    @include tablet{
+        width: 24px;
+    }
+    @include desktop{
+        width: 24px;
+    }
 }
 
 .ico-ig:hover{
@@ -206,9 +218,15 @@ h1{
 }
 
 .ico-mail{
-    width: 30px; 
+    width: 20px; 
     height: 100%;
     transition-duration: 0.5s;
+    @include tablet{
+        width: 30px;
+    }
+    @include desktop{
+        width: 30px;
+    }
 }
 
 .ico-mail:hover{

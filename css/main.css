@@ -209,7 +209,7 @@ h2 {
   display: flex;
   color: whitesmoke;
   text-decoration: none;
-  font-size: small;
+  font-size: x-small;
 }
 @media screen and (min-width: 768px) {
   .footer nav ul li a {
@@ -226,9 +226,19 @@ h2 {
 }
 
 .ico-fb {
-  width: 16px;
+  width: 10px;
   height: 100%;
   transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .ico-fb {
+    width: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ico-fb {
+    width: 16px;
+  }
 }
 
 .ico-fb:hover {
@@ -236,9 +246,19 @@ h2 {
 }
 
 .ico-ig {
-  width: 24px;
+  width: 16px;
   height: 100%;
   transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .ico-ig {
+    width: 24px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ico-ig {
+    width: 24px;
+  }
 }
 
 .ico-ig:hover {
@@ -246,9 +266,19 @@ h2 {
 }
 
 .ico-mail {
-  width: 30px;
+  width: 20px;
   height: 100%;
   transition-duration: 0.5s;
+}
+@media screen and (min-width: 768px) {
+  .ico-mail {
+    width: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ico-mail {
+    width: 30px;
+  }
 }
 
 .ico-mail:hover {
