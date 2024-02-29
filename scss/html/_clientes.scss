@@ -10,6 +10,7 @@
     height: 343px;
     margin-top: 50px;
     margin-bottom: 300px;
+    max-width: 100%;
     @include tablet{
         width: 700px;
         height: 480px;
