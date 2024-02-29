@@ -664,23 +664,6 @@ main .grid-contenedor {
   padding: 2px;
 }
 
-.mapa {
-  width: 370px;
-  height: 300px;
-}
-@media screen and (min-width: 768px) {
-  .mapa {
-    width: 400px;
-    height: 400px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .mapa {
-    width: 600px;
-    height: 450px;
-  }
-}
-
 .grilla-map {
   display: grid;
   grid-template-rows: 100px 350px;
@@ -721,7 +704,7 @@ main .grid-contenedor {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  max-width: 100px;
+  max-width: 100%;
 }
 @media screen and (min-width: 768px) {
   .grilla-map-item2 {
@@ -733,6 +716,23 @@ main .grid-contenedor {
   .grilla-map-item2 {
     text-align: left;
     margin-top: 30px;
+  }
+}
+
+.mapa {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (min-width: 768px) {
+  .mapa {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mapa {
+    width: 600px;
+    height: 450px;
   }
 }
 
