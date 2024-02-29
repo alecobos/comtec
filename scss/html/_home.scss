@@ -159,8 +159,11 @@ h1{
     nav{
         ul{
             display: flex;
-            gap: 3px;
+            gap: 10px;
             @include tablet{
+                gap: 20px;
+            }
+            @include desktop{
                 gap: 20px;
             }
             li{

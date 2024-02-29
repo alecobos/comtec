@@ -11,6 +11,7 @@ main .grid-contenedor{
     align-content: center;
     border-color: #0571B6;
     font-family: $font-text;
+    max-width: 90%;
     @include tablet{
         margin: 200px 150px;
     }

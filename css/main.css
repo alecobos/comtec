@@ -195,9 +195,14 @@ h2 {
 }
 .footer nav ul {
   display: flex;
-  gap: 3px;
+  gap: 10px;
 }
 @media screen and (min-width: 768px) {
+  .footer nav ul {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
   .footer nav ul {
     gap: 20px;
   }
@@ -488,6 +493,7 @@ main .grid-contenedor {
   align-content: center;
   border-color: #0571B6;
   font-family: "Montserrat", sans-serif;
+  max-width: 90%;
 }
 @media screen and (min-width: 768px) {
   main .grid-contenedor {
