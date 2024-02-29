@@ -70,7 +70,7 @@
 .grilla-map {
     display: grid;
     grid-template-rows: 100px 350px;
-    grid-template-columns: 500px; 
+    grid-template-columns: 400px; 
     text-align: center;
     /*background-color: $azul;*/
     @include tablet{
@@ -112,8 +112,8 @@
     }
 }
 .mapa{
-    width: 300px; 
-    height: 300px;
+    width: 290px; 
+    height: 290px;
     // max-width: 100%;
     @include tablet{
         width: 400px; 

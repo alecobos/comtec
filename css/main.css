@@ -709,7 +709,7 @@ main .grid-contenedor {
 .grilla-map {
   display: grid;
   grid-template-rows: 100px 350px;
-  grid-template-columns: 500px;
+  grid-template-columns: 400px;
   text-align: center;
   /*background-color: $azul;*/
 }
@@ -761,8 +761,8 @@ main .grid-contenedor {
 }
 
 .mapa {
-  width: 300px;
-  height: 300px;
+  width: 290px;
+  height: 290px;
 }
 @media screen and (min-width: 768px) {
   .mapa {
