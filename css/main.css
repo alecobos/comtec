@@ -638,8 +638,7 @@ main .grid-contenedor {
 }
 
 .form_comentarios {
-  width: 100%;
-  max-width: 100%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -745,7 +744,7 @@ main .grid-contenedor {
 
 .grilla-map-item2 {
   text-align: left;
-  margin-left: 5px;
+  margin-left: 15px;
   margin-right: 5px;
 }
 @media screen and (min-width: 768px) {
@@ -762,8 +761,8 @@ main .grid-contenedor {
 }
 
 .mapa {
-  width: 280px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
 }
 @media screen and (min-width: 768px) {
   .mapa {
@@ -779,8 +778,7 @@ main .grid-contenedor {
 }
 
 .form_comentarios2 {
-  width: 100%;
-  max-width: 100%;
+  width: 80%;
   margin-left: 5px;
   display: flex;
   flex-wrap: wrap;

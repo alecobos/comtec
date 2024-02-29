@@ -11,8 +11,8 @@
 }
 
 .form_comentarios{
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    // max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -99,7 +99,7 @@
 
 .grilla-map-item2 {
     text-align: left;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-right: 5px;
     // max-width: 100%;
     @include tablet{
@@ -112,8 +112,8 @@
     }
 }
 .mapa{
-    width: 280px; 
-    height: 280px;
+    width: 300px; 
+    height: 300px;
     // max-width: 100%;
     @include tablet{
         width: 400px; 
@@ -126,8 +126,8 @@
 }
 
 .form_comentarios2{
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    // max-width: 80%;
     margin-left: 5px;
     display: flex;
     flex-wrap: wrap;
