@@ -15,10 +15,18 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items:start;
     overflow: hidden;
     font-family: $font-text;
+    @include tablet{
+        justify-content: center;
+        align-items: center;
+    }
+    @include desktop{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .pages_comentarios_titulo {
@@ -120,12 +128,22 @@
 .form_comentarios2{
     width: 100%;
     max-width: 100%;
-    margin-left: 50px;
+    margin-left: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: start;
     overflow: hidden;
     font-family: $font-text;
+    @include tablet{
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px
+    }
+    @include desktop{
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px
+    }
 }
   
