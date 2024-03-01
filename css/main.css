@@ -195,7 +195,7 @@ h2 {
 }
 .footer nav ul {
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
 @media screen and (min-width: 768px) {
   .footer nav ul {
@@ -486,7 +486,7 @@ main .galeria-img .productos-oym .titulos-productos-oym {
 main .grid-contenedor {
   height: 70vh;
   display: grid;
-  grid-template-columns: repeat(3, 30%);
+  grid-template-columns: repeat(3, 25%);
   grid-template-rows: repeat(8, 20%);
   gap: 10px;
   margin: 230px 40px;
