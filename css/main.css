@@ -393,7 +393,17 @@ main .galeria-img {
   justify-content: center;
   gap: 20px;
   padding-bottom: 20px;
-  margin-top: 50px;
+  margin-top: 140px;
+}
+@media screen and (min-width: 768px) {
+  main .galeria-img {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .galeria-img {
+    margin-top: 50px;
+  }
 }
 main .galeria-img .productos {
   display: flex;
@@ -408,13 +418,15 @@ main .galeria-img .productos {
   border-radius: 10px;
 }
 main .galeria-img .productos img {
-  height: 150px;
+  height: 180px;
   padding-top: 3px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 main .galeria-img .productos .titulos-productos {
   font-family: "Montserrat", sans-serif;
   font-size: large;
-  margin-top: 3px;
+  margin-top: 10px;
 }
 main .galeria-img .productos-it {
   display: flex;
@@ -429,13 +441,15 @@ main .galeria-img .productos-it {
   border-radius: 10px;
 }
 main .galeria-img .productos-it img {
-  height: 150px;
+  height: 180px;
   padding-top: 3px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 main .galeria-img .productos-it .titulos-productos-it {
   font-family: "Montserrat", sans-serif;
   font-size: large;
-  margin-top: 3px;
+  margin-top: 10px;
 }
 main .galeria-img .productos-hys {
   display: flex;
@@ -450,14 +464,16 @@ main .galeria-img .productos-hys {
   border-radius: 10px;
 }
 main .galeria-img .productos-hys img {
-  height: 150px;
+  height: 180px;
   padding-top: 3px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 main .galeria-img .productos-hys .titulos-productos-hys {
   font-family: "Montserrat", sans-serif;
   font-size: large;
   text-align: center;
-  margin-top: 3px;
+  margin-top: 10px;
 }
 main .galeria-img .productos-oym {
   display: flex;
@@ -472,14 +488,16 @@ main .galeria-img .productos-oym {
   border-radius: 10px;
 }
 main .galeria-img .productos-oym img {
-  height: 150px;
+  height: 180px;
   padding-top: 3px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 main .galeria-img .productos-oym .titulos-productos-oym {
   font-family: "Montserrat", sans-serif;
   font-size: large;
   text-align: center;
-  margin-top: 3px;
+  margin-top: 10px;
 }
 
 /*estilos de servicios*/

@@ -88,7 +88,13 @@ main .galeria-img{
     justify-content: center;
     gap:20px;
     padding-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 140px;
+    @include tablet{
+        margin-top: 50px;
+    }
+    @include desktop{
+        margin-top: 50px;
+    }
     .productos{
         display:flex;
         flex-direction: column;
@@ -101,13 +107,15 @@ main .galeria-img{
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
-            height: 150px;
+            height: 180px;
             padding-top: 3px;
+            border-top-left-radius: 20%;
+            border-bottom-right-radius: 20%;
         }
         .titulos-productos{
             font-family: $font-text;
             font-size: large;
-            margin-top: 3px;
+            margin-top: 10px;
         }
     }
     .productos-it{
@@ -122,13 +130,15 @@ main .galeria-img{
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
-            height: 150px;
+            height: 180px;
             padding-top: 3px;
+            border-top-left-radius: 20%;
+            border-bottom-right-radius: 20%;
         }
         .titulos-productos-it{
             font-family: $font-text;
             font-size: large;
-            margin-top: 3px;
+            margin-top: 10px;
         }
     }
     .productos-hys{
@@ -143,14 +153,16 @@ main .galeria-img{
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
-            height: 150px;
+            height: 180px;
             padding-top: 3px;
+            border-top-left-radius: 20%;
+            border-bottom-right-radius: 20%;
         }
         .titulos-productos-hys{
             font-family: $font-text;
             font-size: large;
             text-align: center;
-            margin-top: 3px;
+            margin-top: 10px;
         }
     }
     .productos-oym{
@@ -165,14 +177,16 @@ main .galeria-img{
         box-shadow: 6px 3px 10px grey;
         border-radius: 10px;
         img{
-            height: 150px;
+            height: 180px;
             padding-top: 3px;
+            border-top-left-radius: 20%;
+            border-bottom-right-radius: 20%;
         }
         .titulos-productos-oym{
             font-family: $font-text;
             font-size: large;
             text-align: center;
-            margin-top: 3px;
+            margin-top: 10px;
         }
     }
     
