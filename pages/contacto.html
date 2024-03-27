@@ -65,32 +65,32 @@
         <div><!--div del formulario-->
           <div class="pages_comentarios">
               <h1 id="contactanos">CONTACTANOS</h1>
-              <form> <!-- Formulario-->  
+              <form> Formulario  
                   <div class="form_comentarios">
                       <fieldset> 
                               <legend class="pages_comentarios_titulo">Ingresa tus datos personales</legend>
                           <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
                               <label for="nombre">Nombre:</label>
-                              <input type="text" id="nombre" placeholder="Nombre"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
+                              <input type="text" name="nombre" id="nombre" placeholder="Nombre"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
                           </div>
                           <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
                               <label for="apellido">Apellido:</label>
-                              <input type="text" id="apellido" placeholder="Apellido"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
+                              <input type="text" name="apellido" id="apellido" placeholder="Apellido"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
                           </div>
                           <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
                             <label for="telefono">Teléfono:</label>
-                            <input type="text" id="telefono" placeholder="Telefono"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
+                            <input type="text" name="telefono" id="telefono" placeholder="Telefono"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
                         </div>
                         <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
                           <label for="empresa">Empresa:</label>
-                          <input type="text" id="empresa" placeholder="Empresa"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
+                          <input type="text" name="empresa" id="empresa" placeholder="Empresa"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
                       </div>
                           <div class="pages-comentario-entry">
                               <label for="correo">E-mail:</label>
-                              <input type="email" placeholder="E-mail"> <!-- mail activa en el celuar @ en teclado del campo--> 
+                              <input type="email" name="email" id="correo" placeholder="E-mail"> <!-- mail activa en el celuar @ en teclado del campo--> 
                           </div>
                           <div class="pages_comentarios_coment">
-                              <textarea name="" id="" cols="30" rows="10"></textarea>
+                              <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
                           </div>  
                           <div class="pages_comentarios_botton">
                               <input type="reset" value="Limpiar formulario"><!-- Input type reset es el que resetea la informacion-->
@@ -112,48 +112,15 @@
             </div>
           </div>
         </div>
-        <div><!--div del segundo formulario-->
-          <div class="pages_comentarios">
-            <h2 id="trabaja">TRABAJA CON NOSOTROS</h2>
-            <form> <!-- Formulario-->  
-                <div class="form_comentarios2">
-                    <fieldset> 
-                        <legend class="pages_comentarios_titulo">Ingresa tus datos personales</legend>
-                        <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
-                            <label for="tr-nombre">Nombre:</label>
-                            <input type="text" id="tr-nombre" placeholder="Nombre"> 
-                        </div>
-                        <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
-                            <label for="tr-apellido">Apellido:</label>
-                            <input type="text" id="tr-apellido" placeholder="Apellido"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
-                        </div>
-                        <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
-                          <label for="tr-telefono">Teléfono:</label>
-                          <input type="text" id="tr-telefono" placeholder="Teléfono"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
-                        </div>
-                        <div class="pages-comentario-entry">
-                            <label for="tr-correo">E-mail:</label>
-                            <input type="email" placeholder="e-mail"> <!-- mail activa en el celuar @ en teclado del campo--> 
-                        </div>                    
-                        <div class="pages-comentario-entry"><!-- etiqueta que ocupa toda la pantalla-->  
-                            <label for="tr-cargo">Puesto:</label>
-                            <input type="text" id="tr-cargo" placeholder="Puesto o cargo"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
-                        </div>
-                        <div class="pages_comentarios_coment">
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                        </div>  
-                        <div class="pages_comentarios_botton">
-                            <input type="file" value="Subir archivo" accept=".pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"><!-- Ver de habilitar la carga-->
-                            <input type="submit" value="Enviar formulario">  <!-- Input type submit es el que envia la informacion-->
-                        </div>  
-                    </fieldset> 
-                </div>
-            </form>
-          </div>
+        <div class="trabaja">
+          <h2>¿Querés trabajar con nosotros? </h2>
+          <p>Envianos tu Cv <a href="mailto:info@cvcnet.com">aquí</a></p>
+            <p>TE INVITAMOS A VIVIR TU EXPERIENCIA EN COMTEC. SUMATE A NUESTRO PROCESO DE SELECCIÓN</p> 
         </div>
+        
     </main>
     <section class="whatsapp">
-      <a href="https://api.whatsapp.com/send?phone=5493875772749"title="whatsapp" target="_blank" >
+      <a href="https://api.whatsapp.com/send?phone=5493875772749"title="whatsapp" target="_blank" > 
           <img src="../img/whatsapp.png" alt="whatsapp">
       </a>  
     </section> 

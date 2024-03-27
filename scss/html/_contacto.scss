@@ -124,26 +124,9 @@
         height: 450px;
     }
 }
-
-.form_comentarios2{
-    width: 80%;
-    // max-width: 80%;
-    margin-left: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: start;
-    overflow: hidden;
+.trabaja{
+    text-align: center;
+    align-items: center;
     font-family: $font-text;
-    @include tablet{
-        justify-content: center;
-        align-items: center;
-        margin-left: 50px
-    }
-    @include desktop{
-        justify-content: center;
-        align-items: center;
-        margin-left: 50px
-    }
+
 }
-  
