@@ -806,5 +806,9 @@ main .grid-contenedor {
   align-items: center;
   font-family: "Montserrat", sans-serif;
 }
+.trabaja .p {
+  text-align: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=main.css.map */
